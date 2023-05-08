@@ -3,8 +3,9 @@ name: Python package
 
 # every 5 minutes cron job
 on:
-  schedule:
-    - cron:  '*/5 * * * *'
+  push
+  #schedule:
+  # - cron:  '*/5 * * * *'
 
 jobs:
   build:
